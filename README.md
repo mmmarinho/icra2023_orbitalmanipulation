@@ -1,2 +1,61 @@
 # icra2023_orbitalmanipulation
-Orbital manipulation code and minimal example for the ICRA2023 paper: Vitreoretinal Surgical Robotic System with Autonomous Orbital Manipulation using Vector-Field Inequalities.
+Orbital manipulation code and minimal example for the ICRA2023 paper: 
+
+```bib
+@InProceedings{koyama2023vitreoretinal,
+  author       = {Koyama, Y. and Marinho, M. M. and Harada, K.},
+  title        = {Vitreoretinal Surgical Robotic System with Autonomous Orbital Manipulation using Vector-Field Inequalities},
+  booktitle    = {2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  year         = {2023},
+  month        = may,
+  organization = {IEEE},
+  pages        = {1--7},
+}
+```
+
+In this example, I have implemented the main code of the paper in `orbital_manipulation.py`. 
+
+To make this example simpler to users outside my lab, I have decided to use the `KUKA LBR4+` robots available by default  in CoppeliaSim. 
+
+## Configuration
+
+Supposing you have a suitable Python3 installation, run
+
+1. Download this repository
+
+```commandline
+git clone https://github.com/mmmarinho/icra2023_orbitalmanipulation.git
+cd icra2023_orbitalmanipulation
+```
+
+2. Create a virtual environment
+
+```commandline
+python3 -m venv venv
+source venv/bin/activate
+```
+- These instructions are for `bash`-enabled systems, for other terminal programs check the venv documentation linked below.
+- Remember to always activate this virtual env again when you want to reuse it.
+- For more info on how to use venv [[click here]](https://docs.python.org/3/tutorial/venv.html).
+
+3. Install the prerequisites
+
+```commandline
+python3 -m pip install -r requirements.txt
+```
+
+## Running this code
+
+1. Open the `orbital_manipulation.ttt` scene in [CoppeliaSim](https://www.coppeliarobotics.com/downloads)
+
+2. Run the `main.py` script. Example
+
+```commandline
+python3 main.py
+```
+- If at this stage you have problems connecting to CoppeliaSim, check the [DQRobotics CoppeliaSim Interface webpage](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/python.html#interface-with-coppeliasim-formely-v-rep) for possible fixes and tips.
+3. The simulation will start automatically. You can click and drag the `xd1` and `xd2` to change each robot's checkpoint. Then, the robots will move accordingly to keep the orbital manipulation constraint.
+
+4. You can stop the script with `CTRL+C`.
+
+
