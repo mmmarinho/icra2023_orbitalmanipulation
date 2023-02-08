@@ -15,7 +15,11 @@ Orbital manipulation code and minimal example for the ICRA2023 paper:
 
 In this example, I have implemented the main code of the paper in `orbital_manipulation.py`. 
 
-To make this example simpler to users outside my lab, I have decided to use the `KUKA LBR4+` robots available by default  in CoppeliaSim. 
+To make this example simpler to users outside my lab, I have decided to use the `KUKA LBR4+` robots available by default in CoppeliaSim. 
+
+The "eye" is also much bigger for easier visualization and control.
+
+<img width="500" alt="Screenshot 2023-02-08 at 20 01 44" src="https://user-images.githubusercontent.com/46012516/217511663-ccbacfbe-aeff-4b75-9588-16fb2ecc443e.png">
 
 ## Configuration
 
