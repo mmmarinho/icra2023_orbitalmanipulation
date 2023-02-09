@@ -69,6 +69,6 @@ python3 main.py
 
 ## TODO
 
-- Add the motion of the eye in the simulation. The real eye will naturally move according to the motion enacted by the moving RCM points of each instrument.
+- Add the motion of the eye in the simulation. The real eye will naturally move in reaction to the motion enacted by the moving RCM points of each instrument.
 
 
