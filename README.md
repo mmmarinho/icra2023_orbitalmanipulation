@@ -15,10 +15,11 @@ Orbital manipulation code and minimal example for the ICRA2023 paper:
 ```
 
 In this example, I have implemented the main code of the paper in `orbital_manipulation.py`. 
+By moving `xd1` and `xd2`, the user can see the optimization handling the orbital manipulation constraint in real time.
 
 To make this example simpler to users outside my lab, I have decided to use the `KUKA LBR4+` robots available by default in CoppeliaSim. 
 
-The "eye" is also much bigger for easier visualization and control.
+The "eye" is in this simulation is much bigger than in the real experiments for easier visualization and operation on CoppeliaSim.
 
 <img width="500" alt="Screenshot 2023-02-08 at 20 01 44" src="https://user-images.githubusercontent.com/46012516/217511663-ccbacfbe-aeff-4b75-9588-16fb2ecc443e.png">
 
@@ -65,5 +66,9 @@ python3 main.py
 3. The simulation will start automatically. You can click and drag the `xd1` and `xd2` to change each robot's setpoint. Then, the robots will move accordingly to keep the orbital manipulation constraint.
 
 4. You can stop the script with `CTRL+C`.
+
+## TODO
+
+- Add the motion of the eye in the simulation. The real eye will naturally move according to the motion enacted by the moving RCM points of each instrument.
 
 
