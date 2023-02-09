@@ -1,4 +1,5 @@
-# icra2023_orbitalmanipulation
+# ICRA2023 Autonomous Orbital Manipulation using Vector-Field Inequalities Example
+
 Orbital manipulation code and minimal example for the ICRA2023 paper: 
 
 ```bib
