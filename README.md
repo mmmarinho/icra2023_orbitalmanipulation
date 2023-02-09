@@ -23,7 +23,7 @@ The "eye" is also much bigger for easier visualization and control.
 
 ## Configuration
 
-Supposing you have a suitable Python3 installation, run
+Supposing you have a suitable Python3 installation, do as follows.
 
 1. Download this repository
 
@@ -38,7 +38,8 @@ cd icra2023_orbitalmanipulation
 python3 -m venv venv
 source venv/bin/activate
 ```
-- These instructions are for `bash`-enabled systems, for other terminal programs check the venv documentation linked below.
+
+- These instructions are for `bash`-enabled systems, for other terminal programs, check the venv documentation linked below.
 - Remember to always activate this virtual env again when you want to reuse it.
 - For more info on how to use venv [[click here]](https://docs.python.org/3/tutorial/venv.html).
 
@@ -57,7 +58,9 @@ python3 -m pip install -r requirements.txt
 ```commandline
 python3 main.py
 ```
+
 - If at this stage you have problems connecting to CoppeliaSim, check the [DQRobotics CoppeliaSim Interface webpage](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/python.html#interface-with-coppeliasim-formely-v-rep) for possible fixes and tips.
+
 3. The simulation will start automatically. You can click and drag the `xd1` and `xd2` to change each robot's checkpoint. Then, the robots will move accordingly to keep the orbital manipulation constraint.
 
 4. You can stop the script with `CTRL+C`.
