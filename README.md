@@ -62,7 +62,7 @@ python3 main.py
 
 - If at this stage you have problems connecting to CoppeliaSim, check the [DQRobotics CoppeliaSim Interface webpage](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/python.html#interface-with-coppeliasim-formely-v-rep) for possible fixes and tips.
 
-3. The simulation will start automatically. You can click and drag the `xd1` and `xd2` to change each robot's checkpoint. Then, the robots will move accordingly to keep the orbital manipulation constraint.
+3. The simulation will start automatically. You can click and drag the `xd1` and `xd2` to change each robot's setpoint. Then, the robots will move accordingly to keep the orbital manipulation constraint.
 
 4. You can stop the script with `CTRL+C`.
 
