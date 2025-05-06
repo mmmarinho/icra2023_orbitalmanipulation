@@ -25,7 +25,7 @@ SOFTWARE.
 
 class RobotManager:
     """
-    A simple class to hold the relevant data for each robot and avoid repetition.
+    Holds the relevant data for each robot and avoid repetition.
     """
     def __init(self):
         self.robot = None
