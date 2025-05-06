@@ -5,7 +5,6 @@ python3 -m pip install marinholab-papers-icra2023-orbitalmanipulation
 ```
 
 Orbital manipulation code and a minimal example for [our ICRA2023 paper](http://doi.org/10.1109/ICRA48891.2023.10160795).
-(https://arxiv.org/pdf/2302.05567.pdf for the green open-access link)
 
 ```bib
 @InProceedings{koyama2023vitreoretinal,
@@ -19,6 +18,7 @@ Orbital manipulation code and a minimal example for [our ICRA2023 paper](http://
   doi          = {10.1109/ICRA48891.2023.10160795}
 }
 ```
+(See https://arxiv.org/pdf/2302.05567.pdf for the green open-access file.)
 
 In this example, I implemented the main code of the paper in `marinholab.papers.icra2023.orbital_manipulation._orbital_manipulation`. 
 
