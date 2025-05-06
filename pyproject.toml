@@ -37,7 +37,7 @@ classifiers = [
 Homepage = "https://github.com/mmmarinho/icra2023_orbitalmanipulation"
 
 [project.scripts]
-marinholab_papers_icra2023_orbitalmanipulation = "marinholab.papers.icra2023.orbitalmanipulation:main"
+marinholab_papers_icra2023_orbitalmanipulation = "marinholab.papers.icra2023.orbital_manipulation._main:main"
 
 # https://pypi.org/project/setuptools-git-versioning/
 [tool.setuptools-git-versioning]

@@ -54,20 +54,20 @@ source venv/bin/activate
 - Remember to always activate this virtual env again when you want to reuse it.
 - For more info on how to use venv [[click here]](https://docs.python.org/3/tutorial/venv.html).
 
-3. Install the prerequisites
+3. Install the package
 
 ```commandline
-python3 -m pip install -r requirements.txt
+python3 -m pip install marinholab-papers-icra2023-orbitalmanipulation
 ```
 
 ## Running this code
 
-1. Open the `orbital_manipulation.ttt` scene in [CoppeliaSim](https://www.coppeliarobotics.com/downloads)
+1. Open the `orbital_manipulation_403_rev3.ttt` scene in [CoppeliaSim](https://www.coppeliarobotics.com/downloads)
 
-2. Run the `main.py` script. Example
+2. Run the `main` script. Example
 
 ```commandline
-python3 main.py
+marinholab_papers_icra2023_orbitalmanipulation
 ```
 
 - If at this stage you have problems connecting to CoppeliaSim, check the [DQRobotics CoppeliaSim Interface webpage](https://dqroboticsgithubio.readthedocs.io/en/latest/installation/python.html#interface-with-coppeliasim-formely-v-rep) for possible fixes and tips.
