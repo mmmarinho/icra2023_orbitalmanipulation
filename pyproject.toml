@@ -11,7 +11,7 @@ include = [
 ]
 
 [project]
-name = "marinholab.papers.icra2023.orbital_manipulation"
+name = "marinholab-papers-icra2023-orbitalmanipulation"
 dynamic = [
     "version"
 ]
