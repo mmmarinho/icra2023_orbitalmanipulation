@@ -1,0 +1,47 @@
+[build-system]
+requires = [
+    "setuptools >= 77.0.3",
+    "setuptools-git-versioning>=2.0,<3"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src/"]
+include = [
+    "marinholab.papers.icra2023.orbital_manipulation"
+]
+
+[project]
+name = "marinholab.papers.icra2023.orbital_manipulation"
+dynamic = [
+    "version"
+]
+dependencies = [
+    "scipy",
+    "quadprog",
+    "dqrobotics >= 22.10.0a2"
+]
+authors = [
+  {name = "Murilo M. Marinho", email = "murilomarinho@ieee.org"}
+]
+maintainers = [
+  {name = "Murilo M. Marinho", email = "murilomarinho@ieee.org"}
+]
+description = "Package related to the paper https://doi.org/10.1109/ICRA48891.2023.10160795."
+readme = "README.md"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3"
+]
+
+[project.urls]
+Homepage = "https://github.com/mmmarinho/icra2023_orbitalmanipulation"
+
+[project.scripts]
+marinholab_papers_icra2023_orbitalmanipulation = "marinholab.papers.icra2023.orbitalmanipulation:main"
+
+# https://pypi.org/project/setuptools-git-versioning/
+[tool.setuptools-git-versioning]
+enabled = true
+# https://stackoverflow.com/questions/73605607/how-to-use-setuptools-scm
+dev_template = "{tag}.{ccount}"
+dirty_template = "{tag}.{ccount}"

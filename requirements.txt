@@ -1,3 +1,4 @@
 dqrobotics >= 22.10.0a2
 scipy
-quadprog-wheel
+quadprog
+setuptools-git-versioning
