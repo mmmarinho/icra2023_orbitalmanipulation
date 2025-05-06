@@ -1,6 +1,7 @@
-# ICRA2023 Autonomous Orbital Manipulation using Vector-Field Inequalities Example
+# ICRA2023: Autonomous Orbital Manipulation using Vector-Field Inequalities Example
 
-Orbital manipulation code and minimal example for [our ICRA2023 paper](https://arxiv.org/abs/2302.05567): 
+Orbital manipulation code and a minimal example for [our ICRA2023 paper](http://doi.org/10.1109/ICRA48891.2023.10160795).
+(https://arxiv.org/pdf/2302.05567.pdf for the green open-access link)
 
 ```bib
 @InProceedings{koyama2023vitreoretinal,
@@ -10,18 +11,26 @@ Orbital manipulation code and minimal example for [our ICRA2023 paper](https://a
   year         = {2023},
   month        = may,
   organization = {IEEE},
-  pages        = {1--7},
+  pages        = {4654--4660},
+  doi          = {10.1109/ICRA48891.2023.10160795}
 }
 ```
 
 In this example, I have implemented the main code of the paper in `orbital_manipulation.py`. 
 By moving `xd1` and `xd2`, the user can see the optimization handling the orbital manipulation constraint in real time.
 
-To make this example simpler to users outside my lab, I have decided to use the `KUKA LBR4+` robots available by default in CoppeliaSim. 
+To simplify this example to users outside my lab, I decided to use the `KUKA LBR4+` robots available by default in CoppeliaSim. 
 
 The "eye" is in this simulation is much bigger than in the real experiments for easier visualization and operation on CoppeliaSim.
 
 <img width="500" alt="Screenshot 2023-02-08 at 20 01 44" src="https://user-images.githubusercontent.com/46012516/217511663-ccbacfbe-aeff-4b75-9588-16fb2ecc443e.png">
+
+## Changelog
+
+#### 2025.05
+
+- Package structure was modified to be compliant with the new `marinholab.papers` namespace in PyPI.
+- Given that [`DQ_VrepInterface`](https://github.com/dqrobotics/cpp-interface-vrep) was archived, this code was modified to be compliant with [`DQ_CoppeliaSimInterfaceZMQ`](https://github.com/dqrobotics/cpp-interface-coppeliasim-zmq).
 
 ## Configuration
 
