@@ -1,4 +1,6 @@
 dqrobotics >= 22.10.0a2
+dqrobotics-pyplot
 scipy
 quadprog
 setuptools-git-versioning
+pyqt6
