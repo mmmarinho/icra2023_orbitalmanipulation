@@ -1,5 +1,9 @@
 # ICRA2023: Autonomous Orbital Manipulation using Vector-Field Inequalities Example
 
+```commandline
+python3 -m pip install marinholab-papers-icra2023-orbitalmanipulation
+```
+
 Orbital manipulation code and a minimal example for [our ICRA2023 paper](http://doi.org/10.1109/ICRA48891.2023.10160795).
 (https://arxiv.org/pdf/2302.05567.pdf for the green open-access link)
 
@@ -16,10 +20,12 @@ Orbital manipulation code and a minimal example for [our ICRA2023 paper](http://
 }
 ```
 
-In this example, I have implemented the main code of the paper in `orbital_manipulation.py`. 
-By moving `xd1` and `xd2`, the user can see the optimization handling the orbital manipulation constraint in real time.
+In this example, I implemented the main code of the paper in `marinholab.papers.icra2023.orbital_manipulation._orbital_manipulation`. 
 
-To simplify this example to users outside my lab, I decided to use the `KUKA LBR4+` robots available by default in CoppeliaSim. 
+By moving `xd1` and `xd2`,
+the user can see the controller handling the orbital manipulation constraint at execution time.
+
+To simplify this example to users outside my lab, I used the `KUKA LBR4+` robots available by default in CoppeliaSim. 
 
 The "eye" is in this simulation is much bigger than in the real experiments for easier visualization and operation on CoppeliaSim.
 
