@@ -23,7 +23,7 @@ Orbital manipulation code and a minimal example for
 
 (See https://arxiv.org/pdf/2302.05567.pdf for the green open-access file.)
 
-In this example, I implemented the main code of the paper in `marinholab.papers.icra2023.orbital_manipulation._orbital_manipulation`. 
+In this example, I implemented the main code of the paper in `marinholab.papers.icra2023.orbital_manipulation._orbital_manipulation`.
 
 By moving `xd1` and `xd2`,
 the user can see the controller handling the orbital manipulation constraint at execution time.
@@ -32,7 +32,17 @@ To simplify this example to users outside my lab, I used the `KUKA LBR4+` robots
 
 The "eye" is in this simulation is much bigger than in the real experiments for easier visualization and operation on CoppeliaSim.
 
-<img width="500" alt="Screenshot 2023-02-08 at 20 01 44" src="https://user-images.githubusercontent.com/46012516/217511663-ccbacfbe-aeff-4b75-9588-16fb2ecc443e.png">
+.. image:: https://user-images.githubusercontent.com/46012516/217511663-ccbacfbe-aeff-4b75-9588-16fb2ecc443e.png
+  :width: 500
+  :alt: Simulation screenshot
+
+API Reference
+-------------
+
+.. toctree::
+   :maxdepth: 2
+
+   apidocs/index
 
 Changelog
 ---------

@@ -42,7 +42,7 @@ html_theme_options = {
     "source_repository": "https://github.com/mmmarinho/icra2023_orbitalmanipulation",
     "source_branch": "main",
     "source_directory": "docs/",
-    "announcement": "<em>Just released 🎉, feedback welcomed at "
+    "announcement": "<em>Feedback welcomed at "
     "<a href='https://github.com/mmmarinho/icra2023_orbitalmanipulation/issues'>Issue Tracker</a></em>",
 }
 
