@@ -3,12 +3,12 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 from datetime import date
-from dqrobotics_extensions.pyplot import __version__
+from marinholab.papers.icra2023.orbital_manipulation import __version__
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'dqrobotics-pyplot'
+project = 'marinholab-papers-icra2023-orbitalmanipulation'
 copyright = f'2025-{date.today().year}, Murilo M. Marinho'
 author = 'Murilo M. Marinho'
 release = __version__
