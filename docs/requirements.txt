@@ -2,4 +2,3 @@ sphinx
 sphinx-autodoc2
 furo
 myst_parser
-sphinxcontrib-video

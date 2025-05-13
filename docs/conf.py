@@ -19,14 +19,12 @@ release = __version__
 extensions = [
     "myst_parser",
     "autodoc2",
-    #"sphinx.ext.intersphinx", # not used just yet
-    "sphinx.ext.viewcode",
-    "sphinxcontrib.video"
+    "sphinx.ext.viewcode"
 ]
 autodoc2_render_plugin = "myst"
 autodoc2_packages = [
     {
-        "path": "../src/dqrobotics_extensions/pyplot",
+        "path": "../src/marinholab/icra2023/orbital_manipulation",
     },
 ]
 
@@ -41,10 +39,10 @@ myst_enable_extensions = ["fieldlist", "deflist"]
 html_theme = "furo"
 html_theme_options = {
     "top_of_page_button": "edit",
-    "source_repository": "https://github.com/marinholab/dqrobotics-pyplot",
+    "source_repository": "https://github.com/mmmarinho/icra2023_orbitalmanipulation",
     "source_branch": "main",
     "source_directory": "docs/",
     "announcement": "<em>Just released 🎉, feedback welcomed at "
-    "<a href='https://github.com/MarinhoLab/dqrobotics-pyplot/issues'>dqrobotics-pyplot Issues</a></em>",
+    "<a href='https://github.com/mmmarinho/icra2023_orbitalmanipulation/issues'>Issue Tracker</a></em>",
 }
 
