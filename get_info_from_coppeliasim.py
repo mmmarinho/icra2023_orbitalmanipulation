@@ -1,4 +1,3 @@
-import yaml
 import numpy as np
 
 from dqrobotics.interfaces.coppeliasim import DQ_CoppeliaSimInterfaceZMQ

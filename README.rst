@@ -1,6 +1,11 @@
 ICRA2023: Autonomous Orbital Manipulation using Vector-Field Inequalities Example
 ============================================================================
 
+.. tip::
+
+   If you're reading this page directly on GitHub, it might be better visualised in
+   https://mmmarinho.github.io/icra2023_orbitalmanipulation/
+
 .. code-block:: console
 
     python3 -m pip install marinholab-papers-icra2023-orbitalmanipulation
@@ -36,13 +41,10 @@ The "eye" is in this simulation is much bigger than in the real experiments for 
   :width: 500
   :alt: Simulation screenshot
 
-API Reference
--------------
+Code documentation
+------------------
 
-.. toctree::
-   :maxdepth: 2
-
-   apidocs/index
+Click here for the :doc:`apidocs/index`.
 
 Changelog
 ---------
@@ -78,7 +80,7 @@ Supposing you have a suitable Python3 installation, do as follows.
     python3 -m pip install marinholab-papers-icra2023-orbitalmanipulation
 
 Running this code
-----------------
+-----------------
 
 1. Open the ``orbital_manipulation_403_rev3.ttt`` scene in `CoppeliaSim <https://www.coppeliarobotics.com/downloads>`_
 
