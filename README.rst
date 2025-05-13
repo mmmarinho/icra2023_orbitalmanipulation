@@ -44,7 +44,7 @@ The "eye" is in this simulation is much bigger than in the real experiments for 
 Code documentation
 ------------------
 
-Click here for the :doc:`apidocs/index`.
+https://mmmarinho.github.io/icra2023_orbitalmanipulation/apidocs/index.html
 
 Changelog
 ---------
