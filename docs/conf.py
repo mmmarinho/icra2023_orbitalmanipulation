@@ -24,7 +24,7 @@ extensions = [
 autodoc2_render_plugin = "myst"
 autodoc2_packages = [
     {
-        "path": "../src/marinholab/icra2023/orbital_manipulation",
+        "path": "../src/marinholab/papers/icra2023/orbital_manipulation",
     },
 ]
 

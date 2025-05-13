@@ -30,6 +30,7 @@ from dqrobotics import *
 def get_tip_rcm_distance(t: DQ, line_direction: DQ, radius: float):
     """
     Gets the tip and RCM distance of a given robot.
+
     Eq. (11) of Vitreoretinal Surgical Robotic System with Autonomous Orbital
     Manipulation using Vector-Field Inequalities. Koyama, Y.; Marinho, M. M.;
     and Harada, K. In 2023 IEEE International Conference on Robotics
@@ -47,8 +48,7 @@ def get_tip_rcm_distance(t: DQ, line_direction: DQ, radius: float):
 def get_tip_rcm_distance_jacobian(t, l, Jt, Jl):
     """
     Gets the Jacobian relating the current RCM position of a robot being
-    controlled using orbital manipulation and its joint velocities.
-    See get_t_om.
+    controlled using orbital manipulation and its joint velocities. See get_t_om.
 
     Eq. (18) of Vitreoretinal Surgical Robotic System with Autonomous Orbital
     Manipulation using Vector-Field Inequalities. Koyama, Y.; Marinho, M. M.;
@@ -127,6 +127,7 @@ def get_J_om(t_om_1: DQ, t_om_2: DQ, J_t_om_1, J_t_om_2):
 def get_D_om(t_om_1: DQ, t_om_2: DQ):
     """
     Get the orbital manipulation squared distance between two robotic arms.
+
     Eq. (8) of Vitreoretinal Surgical Robotic System with Autonomous Orbital
     Manipulation using Vector-Field Inequalities. Koyama, Y.; Marinho, M. M.;
     and Harada, K. In 2023 IEEE International Conference on Robotics
