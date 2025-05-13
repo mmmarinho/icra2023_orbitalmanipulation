@@ -1,6 +1,12 @@
 ICRA2023: Autonomous Orbital Manipulation using Vector-Field Inequalities Example
 ============================================================================
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   apidocs/index
+
 .. tip::
 
    If you're reading this page directly on GitHub, it might be better visualised in
