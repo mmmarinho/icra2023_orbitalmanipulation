@@ -55,6 +55,7 @@ Changelog
 - Package structure was modified to be compliant with the new ``marinholab.papers`` namespace in PyPI.
 - Given that `DQ_VrepInterface <https://github.com/dqrobotics/cpp-interface-vrep>`_ was archived, this code was modified 
   to be compliant with `DQ_CoppeliaSimInterfaceZMQ <https://github.com/dqrobotics/cpp-interface-coppeliasim-zmq>`_.
+- Adjusted API documentation and created webpage via ``sphinx`` and ``autodoc2``.
 
 Configuration
 -------------
